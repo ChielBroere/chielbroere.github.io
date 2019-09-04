@@ -1,8 +1,7 @@
 # Site settings
-title_left    : "Chiel.dev"
-title_right   : "" # default: ""
-description   : ""
-keywords      : "blog"
+title_left    : "Chiel Broere"
+description   : "Blog Chiel Broere"
+keywords      : "Chiel Broere"
 url           : https://chiel.dev # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
@@ -34,6 +33,8 @@ plugins:
   - jekyll-sitemap
   - bourbon
   - jekyll-paginate
+  - jekyll-seo-tag
+
 
 # navbar pages
 navbar:
@@ -43,3 +44,13 @@ navbar:
     title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script", "vendor"]
+
+title: "Chiel Broere"
+
+social:
+  name: Chiel Broere
+  links: 
+    - https://github.com/chielbroere
+    - https://twitter.com/chielbroere
+    - https://www.linkedin.com/in/chielbroere/
+    
